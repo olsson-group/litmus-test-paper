@@ -7,8 +7,8 @@ Analysis pipeline and code to reproduce part of the results presented in the man
 We provide a environment YAML file reflecting the conda environment used to generate the results.
 
 Some analysis scripts rely on the separate downloads:
- - Pre-processed molecular dynamics trajectories
- - Serialized Bayesian MSM model (PyEMMA)
+ - Pre-processed molecular dynamics trajectories (see below)
+ - Serialized Bayesian MSM model (PyEMMA) http://ftp.imp.fu-berlin.de/pub/solsson/model.pyemma.zip
 
 
 ## Citing these resources
