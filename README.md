@@ -13,16 +13,16 @@ Some analysis scripts rely on the separate downloads:
 
 ## Citing these resources
 Molecular Dynamics data:
-`@misc{md-data,
+```@misc{md-data,
 	author = {Olsson, Simon and Weikl, Thomas},
 	howpublished = {https://doi.org/10.17617/3.8o, Edmond, V1},
 	title = {{1.68 milliseconds of MD simulation trajectories for the binding of ubiquitin to the SH3c domain from CIN85}}}
-`
+```
 Code and scientific findings:
-`@article{chakrabartiolsson2022,
+```@article{chakrabartiolsson2022,
 	author = {Kalyan S. Chakrabarti and Simon Olsson and Supriya Pratihar and Karin Giller and Kerstin Overkamp and  Ko On Lee and  Vytautas Gapsys and Kyoung-Seok Ryu and Bert L. de Groot and Frank No\'e and Stefan Becker and Donghan Lee and Thomas R.\ Weikl and Christian Griesinger 
 \newline{}},
 journal = {Nat. Commun.},
 	journal-full = {Nature communications},
 	title = {A litmus test for classification of recognition mechanisms of transiently binding proteins},
-	year = {2022}}`
+	year = {2022}}```
