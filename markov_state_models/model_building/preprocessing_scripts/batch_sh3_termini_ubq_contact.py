@@ -26,37 +26,3 @@ for fn in glob('joined_strided_trajectories/trajectory_*.xtc'):
     np.savez(out_fn, data_[0])
 
 
-#
-#  def strisint(s):
-#      try:
-#          int(s)
-#          return True
-#      except ValueError:
-#          return False
-#
-#
-#  k=0
-#  poelse=[]
-#  temporary_=[]
-#  for i,data in source.iterator(stride=5):
-#      if i>k:
-#          #assemble trajectory fragments
-#          joined = np.concatenate(temporary_)
-#          # move to origin
-#          joined = joined - joined.mean(axis=1, keepdims = True)
-#          #reshape and transform, take only first PC
-#          poelse.append(pca.transform(joined.reshape((joined.shape[0], 280*3)) )[:, 0]  )
-#          temporary_=[data]
-#          k=i
-#      else:
-#          temporary_.append(data)
-#
-##assemble trajectory fragments
-#  joined = np.concatenate(temporary_)
-## move to origin
-#  joined = joined - joined.mean(axis=1, keepdims = True)
-##reshape and transform, take only first PC
-#  poelse.append(pca.transform(joined.reshape((joined.shape[0], 280*3)) )[:, 0]  )
-#
-#  for i,pinc in enumerate(poelse):
-#    np.save(f'_model/pincer_mode_{i}.npz', pinc)
