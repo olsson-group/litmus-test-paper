@@ -10,12 +10,14 @@ Some analysis scripts rely on the separate downloads:
  - Pre-processed molecular dynamics trajectories (see below)
  - Serialized Bayesian MSM model (PyEMMA) http://ftp.imp.fu-berlin.de/pub/solsson/model.pyemma.zip
 
+## Disclaimer
+We provide these materials _as is_ and as such cannot guarantee any support in getting the code running on your system. Please post questions/bugs/problems in the GitHub Issues. 
 
 ## Citing these resources
 Molecular Dynamics data:
 ```
 @misc{md-data,
-	author = {Olsson, Simon and Weikl, Thomas},
+	author = {Simon Olsson and Thomas R.\ Weikl},
 	howpublished = {https://doi.org/10.17617/3.8o, Edmond, V1},
 	title = {{1.68 milliseconds of MD simulation trajectories for the binding of ubiquitin to the SH3c domain from CIN85}}}
 ```
