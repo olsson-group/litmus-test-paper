@@ -22,8 +22,7 @@ Molecular Dynamics data:
 Code and scientific findings:
 ```
 @article{chakrabartiolsson2022,
-	author = {Kalyan S. Chakrabarti and Simon Olsson and Supriya Pratihar and Karin Giller and Kerstin Overkamp and  Ko On Lee and  Vytautas Gapsys and Kyoung-Seok Ryu and Bert L. de Groot and Frank No\'e and Stefan Becker and Donghan Lee and Thomas R.\ Weikl and Christian Griesinger 
-\newline{}},
+	author = {Kalyan S. Chakrabarti and Simon Olsson and Supriya Pratihar and Karin Giller and Kerstin Overkamp and  Ko On Lee and  Vytautas Gapsys and Kyoung-Seok Ryu and Bert L. de Groot and Frank No\'e and Stefan Becker and Donghan Lee and Thomas R.\ Weikl and Christian Griesinger },
 journal = {Nat. Commun.},
 	journal-full = {Nature communications},
 	title = {A litmus test for classification of recognition mechanisms of transiently binding proteins},
